@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1a206b-568b-44d2-a09d-cfaa8577adea" name="Changes" comment="used intention actions to add padding">
+    <list default="true" id="8c1a206b-568b-44d2-a09d-cfaa8577adea" name="Changes" comment="user interaction detected with TextButton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -42,7 +42,6 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="flutter.view.tool.window.visible" value="true" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
@@ -71,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671296005112</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="user interaction detected with TextButton">
+      <created>1671436902301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671436902301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -95,6 +101,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="used expanded widget for flexible layout" />
     <MESSAGE value="used intention actions to add padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="used intention actions to add padding" />
+    <MESSAGE value="user interaction detected with TextButton" />
+    <option name="LAST_COMMIT_MESSAGE" value="user interaction detected with TextButton" />
   </component>
 </project>
