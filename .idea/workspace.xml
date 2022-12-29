@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1a206b-568b-44d2-a09d-cfaa8577adea" name="Changes" comment="created a function for Random number">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c1a206b-568b-44d2-a09d-cfaa8577adea" name="Changes" comment="picture of app screen">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672301743037</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="picture of app screen">
+      <created>1672306463631</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672306463631</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -142,6 +147,7 @@
     <MESSAGE value="stateless widget became a stateful widget" />
     <MESSAGE value="imported math library for Random() function" />
     <MESSAGE value="created a function for Random number" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a function for Random number" />
+    <MESSAGE value="picture of app screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="picture of app screen" />
   </component>
 </project>
