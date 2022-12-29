@@ -28,9 +28,20 @@ class _DicePageState extends State<DicePage> {
   int rightDiceNumber = 6;
   int randomDiceNumber = 1;
 
+  /*
+  // My random function
   int generateRandomNumber() {
     randomDiceNumber = Random().nextInt(6) + 1;
     return randomDiceNumber;
+  }
+  */
+
+  // Official course random function
+  void generateRandomNumber() {
+    setState(() {
+      leftDiceNumber = Random().nextInt(6) + 1;
+      rightDiceNumber = Random().nextInt(6) + 1;
+    });
   }
 
   @override
@@ -41,10 +52,7 @@ class _DicePageState extends State<DicePage> {
           Expanded(
             child: TextButton(
               onPressed: () {
-                setState(() {
-                  leftDiceNumber = generateRandomNumber();
-                  rightDiceNumber = generateRandomNumber();
-                });
+                generateRandomNumber();
                 //debugPrint('Left button pressed.');
               },
               child: Image.asset('images/dice$leftDiceNumber.png'),
@@ -53,10 +61,7 @@ class _DicePageState extends State<DicePage> {
           Expanded(
             child: TextButton(
               onPressed: () {
-                setState(() {
-                  leftDiceNumber = generateRandomNumber();
-                  rightDiceNumber = generateRandomNumber();
-                });
+                generateRandomNumber();
                 //debugPrint('Right button pressed.');
               },
               child: Image.asset('images/dice$rightDiceNumber.png'),
